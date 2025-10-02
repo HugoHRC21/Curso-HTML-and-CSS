@@ -1,0 +1,47 @@
+body{
+    font-family: montserrat;
+    font-weight: 300;
+    background-color: #777;
+}
+
+li {
+    color: #00c130;
+}
+
+
+/* SELECTOR POR HIJO DIRECTO Y DESCENDIENTE */ 
+
+ul li{
+    color: darkviolet;
+}
+
+ul li strong{
+    color: #b8690f;
+}
+
+/* SELECTOR POR ATRIBUTO */ 
+
+img[src="Originele bloemenfoto.jfif"] { /* [src] para cuando queremos que SOLO ESA IMAGEN ESPECIFICA tengan la caracteristica */
+    width: 100%;  
+}
+
+img[src$="jfif"] { /* [src$ Y EL TIPO DE FORMATO] para cuando queremos que todos los img que TERMINEN en un tipo de archivo por ejemplo png tengan la caracteristica */
+    width: 100%;  
+}
+
+img[src^="Originele"]{ /* [src^ Y EL COMIENZO DEL NOMBRE DEL ARCHIVO] para cuando queremos que todos los img que COMIENCEN en un tipo de archivo por ejemplo png tengan la caracteristica */
+    width: 100%;  
+} 
+
+
+/* SELECTOR DE HERMANO ADYACENTE */
+
+h1 + p{
+    color: #dbbc08;
+}
+
+/* SELECTOR DE HERMANOS GENERALES*/
+
+h1 ~ p{
+    color: #d2ff1d;
+}

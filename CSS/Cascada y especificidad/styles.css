@@ -1,0 +1,11 @@
+ #titulo{ /*elemento mas especificio 1,0,0 */
+    color: #027527;
+}
+
+.titulo{ /*elemento menos especificio 0,1,0 */
+    color: #cd5c5c;
+}
+
+h1{  /*elemento mucho menos especificio 0,0,1 */
+    color: #8a2be2 !important; /* (!important) elemento mucho mas mas MAS especificio que TODO --> */
+}

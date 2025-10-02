@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(24, 136, 99);
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 100;
+    color: antiquewhite;
+}
+
+.box{
+    height: 100px;
+    width: 100%;
+    margin: 20px;
+    margin: 0;
+    background-color: #feb9;
+    /* background-image: url("https://calcetoos.com/cdn/shop/products/calcetines-kawaii-caras-766162_250x250@2x.jpg?v=1599661268");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed; */
+
+    background: url("https://http2.mlstatic.com/D_NQ_NP_728166-MLV71759813587_092023-O.webp") top center fixed #feb9;
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #b607;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+h1 {color: rgb(214, 204, 6); font-style: italic;}
+li {color: darkslategrey;}
+.faltante {color: forestgreen;}
+.ingrediente-faltante { color: darkorange;}
+#ingrediente-secreto {color: tomato;}

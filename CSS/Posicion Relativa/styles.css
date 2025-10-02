@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: #ededed;
+    font-family: montserrat;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    color: bisque;
+    position: relative;
+}
+
+.box--blue{
+    background-color: rgb(92, 135, 205);
+    left: 90px;
+    right: 30px ;
+    top: -40px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.box--green{
+    background-color: rgb(92, 205, 132);
+    left: 150px;
+    top: -70px;
+
+}

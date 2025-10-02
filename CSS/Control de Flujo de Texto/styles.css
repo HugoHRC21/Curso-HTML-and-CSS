@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+    background-color:#c5cab8;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #567de0;
+    border: 2px solid #000000;
+    margin: auto;
+    margin-top: 50px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break:normal;
+    overflow-wrap: anywhere;
+
+}
+
+h1{
+    text-wrap: balance;
+}

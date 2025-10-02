@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 280px;
+    background-color: #e2e2e2;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 40px 0px #0004;
+ /* derecha-horizontal    abajo-vertical   desenfoque    expansion   color */
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: rgb(10,110,113);
+    text-align: center;
+    
+}
+
+h2{
+    padding: 20px;
+    font-family: montserrat;
+    font-size: 20px;
+    color: rgb(10, 110, 113);
+    margin-top: 0;
+    text-shadow: 0 0 4px #f88;
+}
+
+p{
+    list-style: none;
+    text-align: justify;
+    line-height: 1;
+    text-shadow: 0 0 4px #f88;
+}
+img{
+    width: 160px;
+    filter: drop-shadow(0px 0px 5px #000);
+}

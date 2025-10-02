@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    color: #48e;
+    font-family: montserrat;
+    margin: 30px;
+}
+
+h1:hover{  /* (:hover) Permite que cuando pase el mouse por encima de el elemento este tome algun comportamiento (Estado)  */
+    color: #eee;
+    background-color: #020202;
+}
+
+h1:active{ /* (:active) Permite que cuando hagamos click  elemento este tome algun comportamiento (Estado)  */
+    color: indianred;
+    background-color: rgb(68, 238, 96);
+}
+
+/* li{
+    color: darkgoldenrod;
+} */
+
+/* Seleccionando al PRIMER elemento de una lista (li) */
+/* li:first-child{
+    color: yellowgreen;
+} */
+
+/* Seleccionando el N elemento de una lista (li) */
+/* li:nth-child(3){
+color: #10078f;
+} */
+
+/* Seleccionando al ULITMO elemento de una lista (li) */
+/* li:last-child{
+    color: yellowgreen;
+} */
+
+/*Seleccionando los li dentro de .lista pero que no tenga la clase .esto-no*/
+ /* .lista li:not(.este-no){  /*---------not()------------ */
+    color: black;
+}
+
+/* Seleccionando el DIV en caso de que este vacio */
+div{
+    border: 2px solid #10078f;
+    background-color: none;
+}
+div:empty{
+    background-color: #48e;
+    padding: 30px;
+    border: none;
+}
+
+/* Verificar el checkbox, si esta verificado toma otra caracteristicas con el :checked*/
+input[type="checkbox"]{
+    margin: 20px;
+}
+
+input[type="checkbox"]:checked{
+    margin: 100px;
+}
+
+/* Seleccionando enlaces no visitados */
+a:link{
+    color: #1ed284;
+}
+
+/* Seleccionando enlaces visitados*/
+a:visited{
+    color: chocolate;
+}
+
+/* Seleccionando INPUTS invalidos*/
+input:invalid{
+    color: red
+}
+
+/* Seleccionando INPUTS validos*/
+input:valid{
+    color: rgb(120, 187, 20);
+}
+
+/* is para agrupar elementos y poder darle atributos atributos */
+:is(.elemento1, .elemento2, .elemento3, .elemento4){
+    color:#ed07a4;
+}
+
+/* where para agrupar elementos y poder darle atributos atributos PERO ACA NO TIENE ESPECIFICIDAD DE PRIORIDAD*/
+section:where(.elemento1, .elemento2, .elemento3, .elemento4){
+    color:#4407ed;
+}
+
+/* :has() permite seleccionar un elemento basado en si contiene o no otro elemento específico */
+/* section:has(.elemento1){
+    background-color: aqua; 
+}*/
+
+label:has(input:valid){
+    color: green;
+}
+
+label:has(input:invalid){
+    color: red;
+}
+

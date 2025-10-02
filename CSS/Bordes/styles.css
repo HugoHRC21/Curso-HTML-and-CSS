@@ -1,0 +1,31 @@
+div{
+    background-color: darkslategrey;
+    color: aliceblue;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+
+    /* border-width: 2px;
+    border-color: burlywood;
+    border-style: solid; */
+    border: 2px solid burlywood;
+    border-radius: 4px;
+}
+
+p{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    background-color: darkslateblue;
+    color: lightgray;
+
+
+    border-top: 2px solid yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+    border-radius: 4px;
+    
+}

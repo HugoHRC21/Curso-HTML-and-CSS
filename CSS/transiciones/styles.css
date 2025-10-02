@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+    height: 100vh;
+}
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: #cd5cba;
+    margin-top: 50px;
+    position: relative;
+    left: 0;
+    /* transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.13,.74,.32,.96); */
+    transition: left 1s cubic-bezier(.13,.74,.49,.6);
+
+
+    /* transition-property: color, background-color;
+    /* transition-delay: ; */
+}
+
+/* 
+.box:hover{
+    background-color:#becd5c;
+    color: #1c1711;
+} */
+
+body:hover .box{
+    background-color: #2b99e2;
+    left: 600px;
+}

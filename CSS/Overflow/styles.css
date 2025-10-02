@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.box{
+    width: 220px;
+    height: 220px;
+    background-color: #5ccd5e;
+    margin-top: 50px;
+    position: relative;
+    left: 0;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 100px;
+    overflow: auto;
+
+}
+

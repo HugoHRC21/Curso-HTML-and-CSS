@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+}
+.box1{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+
+.box2{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}

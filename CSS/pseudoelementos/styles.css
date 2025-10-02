@@ -1,0 +1,45 @@
+body{
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+div{
+    padding: 20px;
+}
+
+h1::first-letter{
+    color: red;
+    font-size: 3em;
+    letter-spacing: -3px;
+}
+
+div::first-line{
+    color:indianred;
+    font-weight: bold;
+}
+
+*::selection{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+input::placeholder{
+    color: #8cff00;
+    background-color: brown;
+    font-family: montserrat;
+    font-weight: 100;
+}
+
+li::marker{
+    color: darkgoldenrod;
+}
+
+li::before{
+    content: 'texto antes';
+    color: blue;
+}
+
+li::after{
+    content: 'texto despues';
+    color: blue;
+}

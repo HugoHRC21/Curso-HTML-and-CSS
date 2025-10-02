@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+/* fr = fractional unit = unidad fraccional
+Es una forma de decir:
+“Asignale a esta columna una parte proporcional del espacio disponible.” */
+
+
+/*auto significa:
+“Hacé que esta columna/fila mida lo que su contenido necesita.” */
+
+
+/*repeat() es una función que se usa principalmente en CSS Grid para repetir columnas o filas sin escribirlas a mano una por una. */ 
+
+
+/* minmax() es una función de CSS Grid que se usa para decir:
+“Este tamaño debe estar entre un mínimo y un máximo.” */
+
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2,minmax(100px,300px)) 1fr ;
+    grid-template-rows: repeat(2,200px) 1fr ;
+}
+
+.grid-item{
+    background-color: #43c203;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.grid2{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 3fr 1fr;
+
+}
+
+.grid2-item{
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+}

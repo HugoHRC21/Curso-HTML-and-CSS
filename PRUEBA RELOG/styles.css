@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: montserrat;
+
+}
+
+.clock__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.clock__base{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    outline: 8px solid #860505;
+    /* border: 8px solid #52a91c; */
+    position: relative;
+}
+
+.clock__needles{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50.7%, -50%);
+}
+
+
+.needle {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: rotate(1deg);
+}
+
+.hour {
+  width: 8px;
+  height: 70px;
+  background: black;
+  /* animation: rotateHour 43200s linear infinite;  */
+}
+
+.minute {
+  width: 4px;
+  height: 100px;
+  background: black;
+  /* animation: rotateMinute 3600s linear infinite; */
+}
+
+.second {
+  width: 2px;
+  height: 120px;
+  background: rgb(196, 12, 12);
+  /* animation: rotateSecond 60s linear infinite; */
+}
+
+
+@keyframes rotateSecond {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotateMinute {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotateHour {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.clock__base::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 17px;
+  height: 17px;
+  background: rgb(213, 84, 48);
+  border-radius: 50%;
+  transform: translate(-48%, -50%);
+}
+
+.number-12::after{
+  content: '12';
+  position: absolute;
+  top: 4%;
+  left: 46%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 60px;
+}
+
+.number-11::after{
+  content: '11';
+  position: absolute;
+  top: 15%;
+  left: 27%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-10::after{
+  content: '10';
+  position: absolute;
+  top: 29%;
+  left: 14%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-9::after{
+  content: '9';
+  position: absolute;
+  top: 44%;
+  left: 7%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 60px;
+}
+
+.number-8::after{
+  content: '8';
+  position: absolute;
+  top: 64%;
+  left: 16%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-7::after{
+  content: '7';
+  position: absolute;
+  top: 78%;
+  left: 29%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-6::after{
+  content: '6';
+  position: absolute;
+  top: 85%;
+  left: 47%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 60px;
+}
+
+.number-5::after{
+  content: '5';
+  position: absolute;
+  top: 78%;
+  left: 70%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-4::after{
+  content: '4';
+  position: absolute;
+  top: 64%;
+  left: 83%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-3::after{
+  content: '3';
+  position: absolute;
+  top: 44%;
+  left: 90%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 60px;
+}
+
+.number-2::after{
+  content: '2';
+  position: absolute;
+  top: 30%;
+  left: 83%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+.number-1::after{
+  content: '1';
+  position: absolute;
+  top: 15%;
+  left: 70%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-56%, -50%);
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+

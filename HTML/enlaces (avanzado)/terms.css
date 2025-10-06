@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+h2 {
+    color: #052f5c;
+}
+
+.sorpresa {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 3rem;
+}
+
+.oculto {
+    font-size: 0.01em;
+    color: #f9f9f9;
+    user-select: text;
+}

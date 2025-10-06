@@ -1,0 +1,29 @@
+body{
+    background-color: #222;
+    color: #eee;
+    font-family: montserrat;
+    font-weight: 100;
+}
+
+details{
+    background-color: transparent;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #888;
+}
+
+details[open]{
+    background-color: #333;
+    font-weight: 0.3em;
+}
+
+summary{
+    background-color: transparent;
+    font-weight: 400;
+    color: #eee;
+}
+
+li{
+    font-size: 12px;
+}

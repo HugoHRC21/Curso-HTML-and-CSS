@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../../CSS/propiedades de texto/fonts.css">
+        <title>Textarea y Labels</title>
+    </head>
+    <body>
+
+        <form>
+            <h2>
+                contact form
+            </h2>
+<!--SIMPLE INPUTS-->
+            <div class="form_input">
+                <label for="name">First Name</label>
+                <input type="text" placeholder="karl marx" id="name">
+            </div>
+
+            <div class="form_input">
+                <label for="email">Email</label>
+                <input type="email" placeholder="hugoconnor@gmail.com" id="email">
+            </div>
+
+<!--SELECT / OPTION-->
+            <div class="form_input">
+                <label>Tipo de Usuario</label>
+                <select name="type-of-user">
+                    <option value="user1">Administrador</option>
+                    <option value="user2">Usuario</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </div>
+
+<!--DATALIST / OPTION-->
+            <div class="form_input">
+                    <label>Referente</label>
+                    <input list="referente">
+                    <datalist id="referente"  name="type-of-user">
+                        <option> Soy hugo </option>
+                        <option> Soy Alejandra </option>
+                        <option> Soy Oscar </option>
+                        <option value="Soy Daniela">Chef de Reposteria</option>
+                        <option value="Soy Diego">Programador y buen amigo</option>
+                    </datalist>
+            </div>
+
+<!--TEXTAREA-->
+            <div class="form_input">
+                <label for="mensaje">Mensaje</label>
+                <textarea placeholder="Deja tu mensaje...." id="mensaje"></textarea>
+            </div>
+
+            <div class="form_input">
+                <label>I aceppt terms and conditions
+                    <input class="checkbox" type="checkbox">
+                </label>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+.flexbox{
+    display: flex;
+     flex-direction:row-reverse; /*row / row-reverse / column / column-reverse */
+     direction: ltr;
+
+}
+
+.flex-items{
+    width: 150px;
+    height: 150px;
+    background-color: #1b7bdb;
+    margin: 10px;
+    color: bisque;
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex-items:first-child{
+    background-color: #4094e9;
+}
+.flex-items:last-child{
+    background-color: #063164;
+}

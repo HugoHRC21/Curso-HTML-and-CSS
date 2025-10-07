@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+      font-weight: 300;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+ /* con todo esto se pueden crear componentes felxibles */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.bloque{
+    display: inline-block;
+    min-width: 200px;
+    background-color: #d0c828;
+    margin: auto;
+    width: 100%;
+    flex: 1;
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+}
+

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+body, div{
+    box-sizing: border-box;
+}
+
+/*@media print{
+    body{
+        font-size: 204pt; 
+    }
+}*/ /*pt media para impresion*/
+
+.flexbox{
+    display: flex;
+}
+
+.flex-item{
+    background-color: #43a943;
+    padding: 30px;
+    border: 1px solid #000;
+    flex-grow: 1;
+}
+
+@media screen and (max-width:600px){
+    .flexbox{
+        flex-direction: column;
+    }
+    .flex-item{
+        background-color: blue;
+        color: antiquewhite;
+    }
+}

@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+body, div{
+    box-sizing: border-box;
+}
+
+/* Las Feature Queries con @supports en CSS sirven para detectar si el navegador admite una propiedad o valor de CSS específico, y aplicar estilos solo si esa característica está soportada. Es como un "if" en CSS. 🔍✅ */
+
+@supports(color: oklch(48.499% 0.16385 142.204)){
+    body{
+        color: oklch(48.499% 0.16385 142.204);
+    }
+}
+

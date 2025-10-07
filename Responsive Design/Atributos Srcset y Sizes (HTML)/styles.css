@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../../CSS/propiedades de texto/fonts.css">
+        <title>Pictures, Source y Media</title>
+    </head>
+    <body>
+        <picture>
+            <source srcset="imagen.webp" type="=image/webp">
+            <source media="(max-width: 400px)" srcset="imagen-small.webp">
+            <source media="(max-width: 600px)"srcset="imagen-medium.webp">
+            <img src="imagen.webp">
+        </picture>
+    </body>
+</html>
